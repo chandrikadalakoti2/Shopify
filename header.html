@@ -1,0 +1,130 @@
+<!doctype html>
+<head>
+     <link rel="stylesheet" type="text/css" href="css/header.css">
+     <title>SHOPIFY</title>
+</head>
+<body>
+<?php include "C:\xampp\htdocs\Discuss_forum\index.php" ?>
+<div class="head">
+     <header>
+           <marquee scrollamount="10"><b> !!!  WE NOT ONLY RENOVATE YOUR WARDROBE  ,   BUT ALSO DESIGN YOR DREAMS  !!!</b></marquee>
+           <h1>SHOPIFY</h1>
+            <h3>
+			<ul><center>
+		          <li><a  href="#bb">BESTSELLERS</a></li>
+		          <li><a  href="#CC">UNDER-999</a></li>
+		          <li><a  href="#aa">CATEGORIES</a></li>
+				 <li><a  href="#dd">ABOUT US</a></li>
+			      <li><a href="header.html">HOME</a></li>
+				   <li><a href="http://localhost/project/Discuss_forum/">DICSUSSION FORUM</a></li>
+				  </center>
+			</ul>	  
+		   </h3>	
+     
+     </header>
+   </div>
+     <div class="slideshow-container">
+
+          <div class="mySlides fade">
+         <center> <img src="images\header\ee.jpg" width="1200px" height="800px" style="margin-top:90px;"/></center>
+          </div>
+
+          <div class="mySlides fade">
+          <center><img src="images\header\dd.jpg" width="1200px" height="800px" style="margin-top:90px;"/></center>
+          </div>
+
+          <div class="mySlides fade">
+          <center><img src="images\header\h.jpg" width="1200px" height="800px" style="margin-top:90px;"/></center>
+          </div>
+
+      </div>
+
+     <div style="text-align:center">
+           <span class="dot"></span> 
+           <span class="dot"></span> 
+           <span class="dot"></span> 
+     </div>
+
+	 
+	 
+	 
+<script>
+       var slideIndex = 0;
+        showSlides();
+
+     function showSlides() {
+     var i;
+     var slides = document.getElementsByClassName("mySlides");
+     var dots = document.getElementsByClassName("dot");
+     for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+     }
+     slideIndex++;
+     if (slideIndex > slides.length) {slideIndex = 1}    
+     for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+     }
+     slides[slideIndex-1].style.display = "block";  
+     dots[slideIndex-1].className += " active";
+     setTimeout(showSlides, 2000); // Change image every 2 seconds
+     }	 
+	
+
+</script>
+	
+     <center><h2 id="aa">CATEGORIES</h2>
+     <div class="categories">
+           <a href="clothing.html"><img src="images\header\top.jpg" width="250px" height="250px"/></a>
+           <a href="accessories.html"><img src="images\header\oo.jpg" width="250px" height="250px"/></a>
+           <a href="footware.html"><img src="images\header\hh.jpg" width="250px" height="250px"/></a>
+           <a href="ethinic.html"><img src="images\header\R.jpg" width="250px" height="250px"/></a>
+     <div class="text">
+      <ul>
+          <a href="tops.html"><li>TOPS AND TEES</li></a>
+          <a href="accessories.html"><li>ACCESSORIES</li></a>
+          <a href="footware.html"><li>FOOTWARE</li></a>
+          <a href="ethinic.html"><li>ETHINIC WEAR</li></a>
+      </div>
+      </center>
+     </div>
+
+     <center><h2 id="bb">BESTSELLERS</h2>
+     <div class="categories">
+           <img src="images\header\nn.jpg" width="230px" height="230px"/>
+          <img src="images\header\e.jpg" width="230px" height="230px"/>
+          <img src="images\header\a.jpg" width="230px" height="230px"/>
+          <img src="images\header\s.jpg" width="230px" height="230px"/>
+          <img src="images\header\j.jpg" width="230px" height="230px"/>
+     </center>
+     </div>
+	
+     <center><h2 id="CC">UNDER-999</h2>
+     <div class="categories">
+          <img src="images\header\i.jpg" width="250px" height="250px"/>
+          <img src="images\header\uc.jpg" width="250px" height="250px"/>
+          <img src="images\header\kk.jpg" width="250px" height="250px"/>
+          <img src="images\header\o.jpg" width="250px" height="250px"/>
+     </center>
+     </div>
+	
+     <center><h2 id="dd">ABOUT US</h2>	
+	           <div class="about"><H3>From what started as a small group of passionate fashion loving individuals in North Brunswick, New Jersey in 2008, to a multinational team, SHOPIFY has grown immensely to what it is today. The SHOPIFY girl is fashion forward yet classy, effortlessly cool and unafraid to venture into different styles.
+                SHOPIFY prides itself on offering on-trend styles catering to both young women and teens, that won’t break the bank. SHOPIFY is able to stay on top of the latest fashion trends from around the globe while rapidly bringing these styles to market. So whether you’re searching for boho dresses and graphic tees or patterned blouses and chic swimwear, SHOPIFY is the ultimate one-stop-shop for the modern yet economical fashionista.
+                </h3>
+               </div> 	
+	
+	
+	
+	<footer class="foot">
+	
+	  <h3>FIND US ON</h3>
+	             <a href="https://www.facebook.com"> <img src="images\fb.png" width="50px"  height="50px"/></a>
+		        <a href="https://www.instagram.com"><img src="images\insta.jpg"  width="50px"  height="50px"/></a>
+                  <a href="https://www.youtube.com"><img src="images\youtube.png"  width="50px"  height="50px"/></a>		 
+		        <a href="https://www.twitter.com"><img src="images\twitter.png"  width="50px"  height="50px"/> </a>   
+	             <a href="https://www.snapchat.com"><img src="images\snap.png"  width="50px"  height="50px"/> </a>   
+	          <h4>Shopify is a registered trademark of Shopify Group Limited. All Rights Reserved</h4>
+			 
+	</footer>
+</body>
+</html>
